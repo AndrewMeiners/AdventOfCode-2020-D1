@@ -27,7 +27,7 @@ namespace AOC_2020_D1
                         int complement = target - twoNums;
                         if (numbers.Contains(complement))
                         {
-                            Console.WriteLine("Answer found is " + num1 + " * " + num2 + " * " + complement + " equals " + (num1 * num2 * complement));
+                            Console.WriteLine($"Answer found is {num1} * {num2} * {complement} equals {num1 * num2 * complement}!");
                             return;
                         }
                     }
